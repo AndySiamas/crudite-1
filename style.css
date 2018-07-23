@@ -1,7 +1,33 @@
+html {
+    background: #356c7c; /* Old browsers */
+    background: -moz-linear-gradient(top, #356c7c 0%, #89bcbb 49%, #4a7887 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #356c7c 0%,#89bcbb 49%,#4a7887 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #356c7c 0%,#89bcbb 49%,#4a7887 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356c7c', endColorstr='#4a7887',GradientType=0 );
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
 .container {
     display:flex;
     justify-content: center;
 
+}
+
+.todoList {
+    display:flex;
+    justify-content: center;
+    background-color: rgb(112, 105, 92);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    height: 100%;
 }
 
 .item-display {

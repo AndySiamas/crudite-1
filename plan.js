@@ -60,3 +60,43 @@ MVP - A form with two fields, two buttons (one to get, one to set), able to get 
   - Different Users
 
 */
+
+/*
+TODO LIST -------------------
+
+  Features:
+
+  1) User may create new todo item with due date
+
+  2) Program will write todo item to local storage
+
+  3) Program will load previous todo items
+
+  4) User may check off todo items when completed
+
+  5) Program will alert user when todo item is overdue
+
+  6) Program will sort items by due date
+
+
+
+  Plan:
+
+  Monday:
+    - Create data structures for program
+    - Implement write todo task/date to storage
+
+  Tuesday:
+    - Implement basic design where user can enter task and date
+
+  Wednesday:
+    - Implement program loading all todo items sorted by date.
+
+  Thursday:
+    - Implement user ability to check off tasks.
+    - Write function to detect when task is overdue.
+
+  Friday: 
+    - Design program with CSS
+
+*/
