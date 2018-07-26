@@ -64,13 +64,18 @@ MVP - A form with two fields, two buttons (one to get, one to set), able to get 
 /*
 TODO LIST -------------------
 
+  Vision:
+
+  My todo list web application will allow users to keep track of tasks they need to complete by a 
+  certain date.
+
   Features:
 
   1) User may create new todo item with due date
 
   2) Program will write todo item to local storage
 
-  3) Program will load previous todo items
+  3) Program will load previous todo items from local storage
 
   4) User may check off todo items when completed
 

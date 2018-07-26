@@ -1,7 +1,7 @@
 
 
 $(document).ready(function() {
-
+  /*
   $('.store-btn').on('click', function(event){
     let titleValue = $('.input-field-title').val();
     let contentValue = $('.input-field-body').val();
@@ -30,4 +30,27 @@ $(document).ready(function() {
     $('.debug').html(`<p>Items deleted</p>`);
 
   });
+  */
+
+  displayMasterList();
+  addDateElements();
+  getUserDate();
+
+  $('.updateButton').on('click', function() {
+    displayMasterList();
+  });
+
+  $('.clearButton').on('click', function() {
+    localStorage.clear();
+    masterList = [];
+    displayMasterList();
+  });
+
+  $('.submitButton').on('click', function() {
+    var userTask = $('.taskInput').val();
+    var taskDueDate = getUserDate();
+    createNewTask(userTask, taskDueDate);
+    $('.taskInput').val('');
+    displayMasterList();
+  })
 });
